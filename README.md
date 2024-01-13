@@ -26,6 +26,8 @@ You need to install [python >= 3.6.0](https://www.python.org/downloads/) and [py
 Clone the repo
 ```sh
 git clone https://github.com/jbakermans/state-space-composition.git
+cd state-space-composition
+pip install -r requirements.txt
 ```
 
 ### Reproducing Figures

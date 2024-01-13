@@ -1,0 +1,6 @@
+matplotlib
+packaging
+shapely
+scipy
+tensorboard
+torch
