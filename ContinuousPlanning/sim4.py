@@ -115,6 +115,7 @@ for row in range(N_grids + 1):
         if row > 0 and col > 0:
             plot_ratemap(hpcs[row-1][col-1], ax, obj_loc = obj_loc, max_val=max_rate)
 plt.suptitle('Hippocampal conjunctions, environment 1')            
+plt.show()
             
 # Then create second environment: move grids
 grid_shift = np.array([0.05, 0.08])
@@ -153,4 +154,6 @@ for row in range(N_grids + 1):
         # All others: plot hpc
         if row > 0 and col > 0:
             plot_ratemap(hpcs2[row-1][col-1], ax, obj_loc = obj_loc, max_val=max_rate)
-plt.suptitle('Hippocampal conjunctions, environment 2')                        
+plt.suptitle('Hippocampal conjunctions, environment 2')
+plt.show()
+                        
